@@ -1,0 +1,91 @@
+body{
+    background: rgba(255, 255, 255, 0.9);
+    
+    font-family: 'lato';
+    text-align: center;
+}
+.dark-mode {
+  background-color: rgb(47, 52, 55);
+  color: rgba(255, 255, 255, 0.9);
+}
+.minutos{
+    
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #575975;
+    
+    
+}
+.tiempoTrabajo{
+    
+    margin:auto;
+    width: 147px;
+    height: 147px;
+    padding: 2px;
+    border-color: #83ADDE;
+    border-width: 6px ;
+    border-style: solid;
+    
+    border-radius: 100%;
+}
+.relojDescanso{
+    position: relative;
+    top:27px;
+}
+.botton{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+#boton{
+    background: none;
+    border: none;
+    font-size: 31px;
+    color:#575975;
+    
+}
+.progress-ring {
+    
+    width: 130px;
+    height: 130px;
+    
+    position: absolute;
+    
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .progress-ring__circle {
+    
+    transition: 1s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke: #CAD6E3;
+    /* z-index: -1; */
+  }
+  .progress-ring2 {
+    
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .progress-ring__circle2 {
+    
+    transition: 1s;
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    stroke: #065bb6;
+    
+  }
+  .darkBotton{
+    position: absolute;
+    top:3%;
+    left: 3%;
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notmodoro</title>
+    <link rel="stylesheet" href="notmodoro.css">
+</head>
+<body>
+    <div><button id="darkBotton" class="darkBotton">Dark mode</button></div>
+       <div class="tiempoTrabajo"><br>Tiempo de <br>trabajo<p></p><input class="minutos" type="text"placeholder="Horas" id="hTrabajo"/> 
+        <input class="minutos"type="text" placeholder="min" id="mTrabajo"/>      
+    
+   <br><input type="button" value = "▶" id="boton"/></div>
+    <p></p>
+    
+    <div class="relojTrabajo"><svg class="progress-ring" >
+        <circle
+          class="progress-ring__circle"
+          stroke-width="6"
+          fill="transparent"
+          r="59"
+          cx="65"
+          cy="65"
+          
+        />
+      </svg><p>Trabajo</p><span id ="horas">00</span>:<span id ="minutos">00</span>:<span id ="segundos">00</span></p>
+    
+    
+    
+      <button class="botton" id='botonTrabajo'>🔥</button>
+    </div>
+    <p></p>
+    <div class="relojDescanso"><p>Descanso</p><span id ="dhoras">00</span>:<span id ="dminutos">00</span>:<span id ="dsegundos">00</span></p>
+        <button class="botton"id='botonDescanso'>💤</button>
+    </div>
+    <svg class="progress-ring2" >
+        <circle
+          class="progress-ring__circle2"
+          stroke-width="6"
+          fill="transparent"
+          r="59"
+          cx="65"
+          cy="65"
+          
+        />
+      </svg>
+    
+
+
+    
+
+  
+    <script  src="timers.js"></script>
+</body>
+</html>
