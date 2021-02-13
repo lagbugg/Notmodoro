@@ -250,6 +250,8 @@ const setProgress2= (percent)=> {
 const darkFuction=()=>{
     let element = document.body;
     element.classList.toggle("dark-mode");
+    let minutosDark = getElementById("hTrabajo");
+    minutosDark.classList.toggle("miuntosDark");
 }
 const darkBotton = document.getElementById("darkBotton");
 darkBotton.addEventListener("click",darkFuction)
