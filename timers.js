@@ -250,8 +250,17 @@ const setProgress2= (percent)=> {
 const darkFuction=()=>{
     let element = document.body;
     element.classList.toggle("dark-mode");
-    let minutosDark = getElementById("hTrabajo");
-    minutosDark.classList.toggle("miuntosDark");
+    let hDark = document.getElementById("hTrabajo");
+    hDark.classList.toggle("minutosDark");
+    let minDark = document.getElementById("mTrabajo");
+    minDark.classList.toggle("minutosDark"); 
+    let inicioBoton = document.getElementById("boton");
+    inicioBoton.classList.toggle("botonDark");
+    let btnTrabajo = document.getElementById("botonTrabajo");
+    btnTrabajo.classList.toggle("bottontDark");
+    let btnDescanso = document.getElementById("botonDescanso");
+    btnDescanso.classList.toggle("bottontDark");
+     
 }
 const darkBotton = document.getElementById("darkBotton");
 darkBotton.addEventListener("click",darkFuction)
