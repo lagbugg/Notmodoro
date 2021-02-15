@@ -1,7 +1,7 @@
 body{
     background: rgba(255, 255, 255, 0.9);
     
-    font-family: 'lato';
+    font-family: Martel,'Open Sans';
     text-align: center;
 }
 .dark-mode {
@@ -22,10 +22,11 @@ body{
 }
 
 .tiempoTrabajo{
-    
+    position: absolute;
+    top:-60px;
     margin:auto;
-    width: 147px;
-    height: 147px;
+    width: 190px;
+    height: 190px;
     padding: 2px;
     border-color: #83ADDE;
     border-width: 6px ;
@@ -33,6 +34,15 @@ body{
     
     border-radius: 100%;
 }
+.timerTrabajo{
+ position: relative;
+ margin:20px;
+}
+.timerTrabajo2{
+  position: relative;
+  margin-top: 68px;
+  margin-bottom: 12px;
+ }
 .relojDescanso{
     position: relative;
     top:27px;
@@ -64,12 +74,12 @@ body{
 }
 .progress-ring {
     
-    width: 130px;
-    height: 130px;
+    width: 176px;
+    height: 176px;
     
     position: absolute;
     
-    top: 240px;
+    top: 341px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -85,10 +95,10 @@ body{
   }
   .progress-ring2 {
     
-    width: 130px;
-    height: 130px;
+    width: 176px;
+    height: 176px;
     position: absolute;
-    top: 370px;
+    top: 540px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -107,3 +117,40 @@ body{
     top:3%;
     left: 3%;
   }
+  .contadores{
+    border: 2px solid #124468;
+    border-radius: 3%;
+    width: 295px;
+    height: 640px;
+    position: absolute;
+    left: 32%;
+    
+    top:3%;
+    box-shadow: 2px 2px 10px #666;
+    
+    
+    
+  }
+.tiempoTrabajo{
+  position: relative;
+  margin-top: 77px ;
+}
+
+.ctexto{
+  border: 2px solid #124468;
+  border-radius: 3%;
+  width: 280px;
+  height: 400px;
+  position:absolute ;
+  left:4%;
+  top:10%;
+  box-shadow: 2px 2px 10px #666;
+  
+  
+}
+.descripcion{
+position: relative;
+margin: 5%;
+font-size:100%;
+font-family: Martel,'Open Sans';
+}
