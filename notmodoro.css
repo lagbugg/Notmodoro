@@ -81,7 +81,7 @@ body{
     
     position: absolute;
     
-    top: 341px;
+    top: 360px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -155,4 +155,20 @@ position: relative;
 margin: 5%;
 font-size:100%;
 font-family: Martel,'Open Sans';
+}
+
+.tiempoTrabajo:hover{
+  transform: scale(1.1);
+}
+
+.timerTrabajo:hover{
+  transform: scale(1.1);
+  
+}
+.timerTrabajo2:hover{
+  transform: scale(1.1);
+  
+}
+.botton:hover{
+  transform: scale(1.2);
 }
