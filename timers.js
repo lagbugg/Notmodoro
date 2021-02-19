@@ -7,6 +7,8 @@ const boton =document.getElementById("boton");
 
 
 const fTrabajo = ()=>{
+    if (trabajoH.value ==0 && trabajoM.value ==0){
+        return}
     if (trabajoM.value > 59){
         alert("Los minutos deben ser menores a 60");
         return;
@@ -53,6 +55,7 @@ const fTrabajo = ()=>{
     
     intervalUpdate = setInterval(
         function(){
+            
             
             
             if (contadorH == 0 && contadorM == 0 && contadorS == 0){
@@ -149,7 +152,7 @@ const fTrabajo = ()=>{
                 pauseTrabajo();
                 inicioDescanso();
             }
-            let porcd = Math.ceil(((secTotald -sec2)/secTotald )*100);
+            let porcd = Math.floor(((secTotald -sec2)/secTotald )*100);
             if (porcd >=0){
             setProgress2(porcd);
             

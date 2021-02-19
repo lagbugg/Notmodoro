@@ -144,9 +144,10 @@ body{
   width: 280px;
   height: 400px;
   position:absolute ;
-  left:15%;
+  left:12%;
   top:12%;
   box-shadow: 2px 2px 10px #666;
+  display: flex;
   
   
 }
@@ -171,4 +172,27 @@ font-family: Martel,'Open Sans';
 }
 .botton:hover{
   transform: scale(1.2);
+}
+
+@media (max-width: 1030px) {
+
+  .ctexto{
+    position: absolute;
+    left:8%;
+    right: 25%;
+    
+  }
+ @media (max-width: 1020px) {
+
+  .ctexto{
+    position: absolute;
+    left:11%;
+    right: 25%;
+    top:715px;
+  }
+  .contadores{
+    position: absolute;
+    top:8%;
+    left: 10%;
+  }
 }
