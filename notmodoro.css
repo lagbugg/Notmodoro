@@ -182,7 +182,8 @@ font-family: Martel,'Open Sans';
     right: 25%;
     
   }
- @media (max-width: 1020px) {
+}
+@media (max-width: 1020px) {
 
   .ctexto{
     position: absolute;
